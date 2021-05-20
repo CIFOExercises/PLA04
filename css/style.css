@@ -64,6 +64,9 @@ section {
     background-color: #27f4bd;
     width: calc(100vw / 3);
     height: fit-content;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 13px 0px #6B6B6B;
+    box-shadow: 4px 4px 13px 0px #6B6B6B;
 }
 
 .options-header {
@@ -71,10 +74,16 @@ section {
     padding: 20px;
     text-align: center;
     color: white;
+    border-radius: 10px 10px 0 0;
 }
 
 .options-body {
     padding: 20px;
+    font-size: 18px;
+}
+
+.info-icon {
+    width: 30px;
 }
 
 .options-body>div {
